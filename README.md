@@ -21,5 +21,5 @@ The `-r` flag sets the resolution that poppler is supposed to assume, in dots pe
 troubleshooting
 ===============
 
-# Why is the size of the page tag smaller than the range of my bounding box coordinates?
+#### Why is the size of the page tag smaller than the range of my bounding box coordinates?
 This seems to be a bug in earlier versions of poppler, having to do with the difference between the dimensions of the MediaBox and the dimensions of the CropBox. This was apparently addressed by the 0.20 release. Note that the version of poppler that is packaged for Ubuntu 12.04 (precise) is 0.16.4, and will give dimensions of the page that do not correspond to the range of values of bounding boxes.
